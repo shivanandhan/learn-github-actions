@@ -4,5 +4,5 @@ jobs:
   just-ls-command:
     runs-on: self-hosted
     steps:
-      - run: ls -l
-      - run: hostname
+      - run:  ls -l
+      - run:  hostname
